@@ -13,7 +13,7 @@
       file name: jquery-2.1.4.min.js
       ]]></notes>
       <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
-   <suppress>
+   <suppress> -->
 
    <suppress>
       <notes><![CDATA[
@@ -21,6 +21,6 @@
       ]]></notes>
       <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
       <cve>CVE-2019-11358</cve>
-   </suppress> -->
+   </suppress>
 </suppressions>
 
