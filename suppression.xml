@@ -6,6 +6,10 @@
       ]]></notes>
       <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
       <cve>CVE-2015-9251</cve>
+      <cve>CVE-2019-11358</cve>
+      <cve>CVE-2020-11022</cve>
+      <cve>CVE-2020-11023</cve>
+      <cve>CVE-2020-23064</cve>
    </suppress>
 
    <!-- <suppress>
@@ -15,12 +19,35 @@
       <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
    <suppress> -->
 
-   <suppress>
+   <!-- <suppress>
       <notes><![CDATA[
       file name: jquery-2.1.4.min.js
       ]]></notes>
       <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
       <cve>CVE-2019-11358</cve>
    </suppress>
-</suppressions>
 
+   <suppress>
+      <notes><![CDATA[
+      file name: jquery-2.1.4.min.js
+      ]]></notes>
+      <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
+      <cve>CVE-2020-11022</cve>
+   </suppress>
+
+   <suppress>
+      <notes><![CDATA[
+      file name: jquery-2.1.4.min.js
+      ]]></notes>
+      <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
+      <cve>CVE-2020-11023</cve>
+   </suppress>
+
+   <suppress>
+      <notes><![CDATA[
+      file name: jquery-2.1.4.min.js
+      ]]></notes>
+      <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
+      <cve>CVE-2020-23064</cve>
+   </suppress> -->
+</suppressions>
